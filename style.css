@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+#preloader {
+    width: 100%;
+    height: 100vh;
+    background: #fff url(Fidget-spinner.gif) 
+    no-repeat center;
+    z-index: 99999;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.navbar {
+    width: 100%;
+    height: 61px;
+    background-color:black;
+}
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    color: #888888;
+    
+    
+}
+.list li a{
+    font-size: 17px;
+}
+
+ul li{
+     position: relative;
+     list-style: none;
+     
+}
+
+
+#logo {
+    height: 45px;
+    width: 45px;
+    margin-top: 6px;
+    
+}
+a:link, a:visited {
+    color:  grey;
+    text-decoration: none;
+}
+.list li a:hover {
+   color: white;
+}
+.dropmenu1{
+    height: 40px;
+    width: 130px;
+  
+}
+.dropmenu a{
+    color: white;
+    font-size: 15px;
+}
+ul.list li ul.dropmenu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 61px;
+    background-color: #2e3030;
+    border: 1px solid grey;
+    display:none;
+    z-index: 999;
+    
+}
+
+ul.list li:hover ul.dropmenu{
+    display: block;
+    top: 63px;
+    width: 150px;
+    height: 250px;
+    
+    
+}
+ul.list li ul.dropmenu a:hover{
+    color: green;
+}
+
+.borderline {
+    width: 100%;
+    height: 2px;
+    background-color: green;
+}
+main {
+    padding-top: 63px;
+}
+.top {
+    height: 44px;
+    width:100%;
+    background-color: #555555;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+}
+.medium1 {
+    background-image: url(img1.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: contain;
+}
+.medium11 {
+    height: 700px;
+    width: 100%;
+    color: white;
+}
+#l1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+#l2 {
+    font-size: 30px;
+    text-align: center;
+}
+.button1 {
+    font-size: 25px;
+    padding-left: 640px;
+    display: flex;
+}
+.button1 a{
+    color: white;
+}
+.button1 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+#l3 {
+    color: green;
+    font-size: 25px;
+}
+.medium2 {
+    width: 100%;
+    height: 10px;
+    background-color: #2e3030;
+}
+.medium3 {
+    background-image: url(img2.jpg);
+    height: 640px;
+    width: 100%;
+    background-size: contain;
+}
+.medium4 {
+    background-image: url(img3.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: contain;
+}   
+.button2 {
+    font-size: 25px;
+    display: flex; 
+    justify-content: center;
+}
+.button2 a{
+    color: white;
+}
+.button2 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+#box1{
+    display: flex;
+    justify-content: center;
+}
+button {
+    height: 40px;
+    width: 140px;
+    background-color: orange;
+    color: black;
+    border: orange;
+}
+button a:hover {
+     color: black;
+}
+#l4{
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+}
+#l5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.medium5 {
+    height: 1700px;
+    width: 100%;
+    background-color:#2e3030;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-content{
+    text-align: center;
+}
+#l6 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+#l7 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.button3 {
+    font-size: 16px;
+    display: flex; 
+    justify-content:center;
+}
+.button3 a{
+    color: white;
+}
+.button3 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#l8{
+    font-size: 16px;
+    color: green;
+}
+.box4 {
+    height: 550px;
+    width: 49.5%;
+    background-size: contain;
+    background-image: url(img4.jpg);
+}
+.box5 {
+    height: 550px;
+    width: 49.5%;
+    background-size: contain;
+    background-image: url(img5.jpg);
+}
+.box6 {
+    height: 550px;
+    width: 49.5%;
+    background-size: contain;
+    background-image: url(img6.jpg);
+}
+.box7 {
+    height: 550px;
+    width: 49.5%;
+    background-size: contain;
+    background-image: url(img7.jpg);
+}
+.box8 {
+    height: 550px;
+    width: 49.5%;
+    background-size: contain;
+    background-image: url(img8.jpg);
+}
+.box9 {
+    height: 550px;
+    width: 49.5%;
+    background-size: contain;
+    background-image: url(img9.jpg);
+}
+.footpannel{
+    background-color: black;
+    width: 100%;
+    height: 415px;
+}
+.footpannel a:hover {
+        color: white;
+        text-decoration: underline;
+}
+.footpannel1 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a {
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+}
+ul h6 {
+    margin-top: 30px;
+}
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+ul i {
+    margin-top: 0px;
+    font-size: 20px;
+}
+.footpannel2 {
+    color: green;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.footpannel3 {
+    height: 2px;
+    width: 1220px;
+    margin-top: 20px;
+    margin-left: 120px;
+    background-color:#2e3030
+}
+.footpannel4 {
+    display: flex;
+    justify-content: space-between;
+}
+ol {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: center;
+    font-size: 12px;
+    margin-top: 25px;
+    width: 58%;
+    margin-left: 78px;
+}
+ol p{
+    color: #818787;
+    font-size: 12px;
+    
+}
+.footpannel5 {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-right: 70px;
+}
+
